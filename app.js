@@ -5,6 +5,7 @@ var path = require('path')
 // Create the app and import css stylesheets
 var app = express()
 app.use(express.static(__dirname + '/ui/style'));
+app.use(express.static(__dirname + '/ui/js'));
 
 
 // Send the default webpage to the user
