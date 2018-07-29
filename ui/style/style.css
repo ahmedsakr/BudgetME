@@ -8,7 +8,7 @@
 
 /* Set gray background color and 100% height */
 .sidenav {
-    height: 100vh;
+    height: 95vh;
     padding-top: 20px;
     background-color: #f1f1f1;
 }
@@ -17,7 +17,7 @@
 footer {
     background-color: #555;
     color: white;
-    padding: 15px;
+    padding: 1px;
 }
 
 /* On small screens, set height to 'auto' for sidenav and grid */
@@ -31,6 +31,20 @@ footer {
 
 .main-center {
     text-align: center;
+}
+
+#spend-slider {
+    border-radius: 10px;
+}
+
+#spend-slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    background-image: url('dollar-resized.png');
+    background-position: center;
+    border-radius: 100%;
+    cursor: pointer;
 }
 
 #main-header > h1:after {

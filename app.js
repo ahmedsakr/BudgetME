@@ -6,6 +6,7 @@ var path = require('path')
 var app = express()
 app.use(express.static(__dirname + '/ui/style'));
 app.use(express.static(__dirname + '/ui/js'));
+app.use(express.static(__dirname + '/ui/images'));
 
 
 // Send the default webpage to the user
